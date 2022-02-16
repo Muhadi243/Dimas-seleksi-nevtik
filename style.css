@@ -1,0 +1,722 @@
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #FFC7C7;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.header{
+    display: flex;
+}
+
+
+.header video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.nav{
+    margin: auto;
+    width: auto;
+    height: 40px;
+    position: relative;
+    background-color: #FFC7C7;
+    display: flex;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid salmon;
+}
+
+
+.nav button{
+    border: none;
+    float: left;
+    width: 192.7px;
+    height: 40px;
+    background-color: #FFC7C7;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.nav button:hover{
+    background-color: salmon;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+    width: 1000px;
+    height: 3500px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 1px 40px  #000;
+    overflow: hidden;
+}
+
+.container h2,p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.container h4{
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.container h3,p{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.container .border{
+    border-bottom: 2px solid salmon;
+    margin: 0 10px 0 10px;
+}
+
+.container img{
+    margin: 100px 100px 0 100px;
+    border: 2px solid salmon;
+    box-shadow: 0px 0px 30px black;
+    position: relative;
+}
+
+
+
+
+
+.container .Amber{
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+.amber-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.amber-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    display: block;
+    opacity: 100%;
+}
+
+.container .Amber img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .Amber .amber-tittle:hover{
+    height: 559.8px;
+}
+
+
+
+
+
+.container .kaeya{
+    position: absolute;
+    float: right;
+    display: inline-block;
+}
+
+.kaeya-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.kaeya-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .kaeya img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .kaeya .kaeya-tittle:hover{
+    height: 559.8px;
+}
+
+
+
+
+
+.container .lisa{
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+
+.lisa-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.lisa-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .lisa img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .lisa .lisa-tittle:hover{
+    height: 559.8px;
+}
+
+
+
+
+
+.container .jean{
+    position: relative;
+    float: right;
+    display: inline-block;
+    top: -668px;
+}
+
+.jean-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.jean-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .jean img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .jean .jean-tittle:hover{
+    height: 559.8px;
+}
+
+.container .jean-tittle p{
+    font-size: 14px;
+}
+
+
+
+
+
+.container .barbara{
+    position: relative;
+    float: left;
+    display: inline-block;
+    top: -668px;
+}
+
+.barbara-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.barbara-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .barbara img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .barbara .barbara-tittle:hover{
+    height: 559.8px;
+}
+
+
+
+
+
+.container .diluc{
+    position: relative;
+    float: right;
+    display: inline-block;
+    top: -1336px;
+}
+
+.diluc-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.diluc-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .diluc img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .diluc .diluc-tittle:hover{
+    height: 559.8px;
+}
+
+.container .diluc-tittle p{
+    font-size: 15px;
+}
+
+
+
+
+
+.container .razor{
+    position: relative;
+    float: left;
+    display: inline-block;
+    top: -1336px;
+}
+
+.razor-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.razor-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .razor img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .razor .razor-tittle:hover{
+    height: 559.8px;
+}
+
+
+
+
+
+.container .venti{
+    position: relative;
+    float: right;
+    display: inline-block;
+    top: -2004px;
+}
+
+.venti-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.venti-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .venti img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .venti .venti-tittle:hover{
+    height: 559.8px;
+}
+
+.container .venti-tittle p{
+    font-size: 14px;
+}
+
+
+
+
+
+.container .klee{
+    position: relative;
+    float: left;
+    display: inline-block;
+    top: -2004px;
+}
+
+.klee-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.klee-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .klee img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .klee .klee-tittle:hover{
+    height: 559.8px;
+}
+
+
+
+
+
+.container .bennett{
+    position: relative;
+    float: right;
+    display: inline-block;
+    top: -2672px;
+}
+
+.bennett-tittle{
+    background-color: #000;
+    opacity: 70%;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    bottom: 5.8px;
+    left: 102px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.bennett-tittle h2,h3,h4,p{
+    color: white;
+    padding-left: 20px;
+    opacity: 100%;
+}
+
+.container .bennett img:hover{
+    border: 2px solid rgb(219, 112, 100);
+}
+
+.container .bennett .bennett-tittle:hover{
+    height: 559.8px;
+}
+
+.container .bennett-tittle p{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.about-me{
+    width: auto;
+    height: 750px;
+    background-image: url(https://images.unsplash.com/photo-1544006659-f0b21884ce1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.about-me-place{
+    width: auto;
+    height: 750px;
+    background-color: #000;
+    opacity: 60%;
+    position: relative;
+}
+
+.about-me-tittle{
+    top: -800px;
+    position: relative;
+    margin: auto;
+}
+
+.about-me-tittle h1{
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+.about-me-border{
+    border-bottom: 5px solid white;
+    top: -50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.about-me-profil{
+    display: flex;
+}
+
+.about-me-profil img{
+    border: 2px solid white;
+    position: relative;
+    margin: auto;
+    top: 50px;
+    border-radius: 50%;
+}
+
+.about-me-tittle .nickname{
+    display: flex;
+    margin: auto;
+}
+
+.about-me-tittle .nickname h1{
+    position: relative;
+    float: left;
+    left: 190.5px;
+    top: 100px;
+    color: white;
+    font-size: 35px;
+}
+
+.about-me-tittle .nickname img{
+    border: 2px solid white;
+    background-color: white;
+    position: relative;
+    float: left;
+    top: 178px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.about-me-tittle .nickname h2{
+    position: relative;
+    float: left;
+    top: 300px;
+    left: -44.5px;
+    color: white;
+}
+
+
+
+
+
+.about-me-tittle .name{
+    display: inline;
+    margin: auto;
+}
+
+.about-me-tittle .name h1{
+    position: relative;
+    float: right;
+    right: 190.5px;
+    bottom: 5px;
+    color: white;
+    font-size: 35px;
+}
+
+.about-me-tittle .name img{
+    border: 2px solid white;
+    background-color: white;
+    position: relative;
+    float: right;
+    top: 72px;
+    right: 90px;
+    border-radius: 50%;
+}
+
+.about-me-tittle .name h2{
+    position: relative;
+    float: right;
+    right: -50px;
+    top: 191px;
+    color: white;
+}
+
+.button{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    top: 500px;
+}
+
+.button button{
+    position: relative;
+    top: 240px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: #FFC7C7;
+    color: rgb(122, 122, 122);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background-color: salmon;
+    color: white;
+    box-shadow: 0px 0px 10px salmon;
+}
+
+.button button::after{
+    transition: ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: auto;
+    height: 300px;
+    background-color: #8785A2;
+    margin: 0%;
+}
+
+.footer .Muhadi{
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    bottom: 7px;
+}
+
+.footer .footer-border{
+    border-bottom: 2px solid #FFC7C7;
+    top: 60px;
+    position: relative;
+    margin: 0 10px 0 10px;
+}
+
+.footer .about{
+    position: relative;
+    display: flex;
+    width: 500px;
+    right: 140px;
+    height: 150px;
+}
+
+.footer .about h2{
+    float: left;
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.footer .about p{
+    border-top: 2px solid salmon;
+    float: left;
+    position: relative;
+    margin-top: 120px;
+    left: -85px;
+}
+
+
+.facebook{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.instagram{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
